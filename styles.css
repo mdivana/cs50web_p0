@@ -59,3 +59,94 @@ button:hover {
     border: 1px solid #dadce0;
     color: #202124;
 }
+
+h4 {
+    cursor: default;
+    display: inline;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+}
+
+.header{
+    display: inline;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    height: auto;
+}
+
+.text1 {
+    display: inline;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    height: auto;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.text2 {
+    display: table-cell;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    height: 30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 275.3125px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+  }
+
+.box {
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}

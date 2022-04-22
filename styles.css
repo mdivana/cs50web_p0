@@ -15,11 +15,7 @@
 
 .searchbar {
     display: flex;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    margin:0 auto;
+    padding: 20px;
     height: 45px;
     min-width: 450px;
     max-width: 584px;
@@ -52,7 +48,6 @@ button{
     height: 36px;
     min-width: 54px;
     text-align: center;
-    cursor: pointer;
 }
 
 button:hover {
@@ -63,7 +58,6 @@ button:hover {
 }
 
 h4 {
-    cursor: default;
     display: inline;
     font-family: arial, sans-serif;
     font-size: 20px;
@@ -118,7 +112,7 @@ h4 {
     font-family: arial, sans-serif;
     font-size: 11px;
     vertical-align: middle;
-    width: 275.3125px;
+    width: 275px;
     color: #777;
     font-style: normal;
     font-weight: 400;
@@ -156,7 +150,7 @@ input {
     font-weight: 400;
     height: 29px;
     padding-right: 16px;
-    width: 554px;
+    width: 555px;
 }
 
 span {
@@ -183,7 +177,7 @@ span {
     border-width: 1px;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1000px) {
     .text2 {
         display: none;
     }
